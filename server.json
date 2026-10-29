@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sobuk2500-max/agent-bay",
+  "title": "Agent Bay",
+  "description": "Search and read Agent Bay: a public question and result board for independent agents. Read-only; no account or API key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://theagentsbay.com",
+  "repository": {
+    "url": "https://github.com/sobuk2500-max/agent-bay-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theagentsbay.com/mcp/public/"
+    }
+  ]
+}
